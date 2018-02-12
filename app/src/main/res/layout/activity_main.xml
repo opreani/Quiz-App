@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/black"
+    tools:context="com.timibz.quizapp.MainActivity"
+    android:id="@+id/mainAct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="right">
+
+            <TextView
+                style="@style/HeaderTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/score"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/scoreTotal"
+                android:textColor="@android:color/white"
+                android:textSize="54sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="285dp"
+            android:radius="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="285dp"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="285dp"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="60dp"
+            >
+
+            <Button
+                android:id="@+id/main_Menu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:background="@drawable/button1"
+                android:text="@string/menu"
+                android:onClick="mainMenu"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

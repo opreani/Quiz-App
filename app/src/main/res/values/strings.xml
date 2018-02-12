@@ -1,0 +1,22 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Quiz App</string>
+
+    <!-- Start button text [CHAR LIMIT=20] -->
+    <string name="start">Start</string>
+
+    <!-- Main menu text-->
+    <string name="menu">Main Menu</string>
+
+    <!-- Score text[CHAR LIMIT=20] -->
+    <string name="score">Score</string>
+
+    <!-- Play again text-->
+    <string name="play_again">Play Again</string>
+
+    <!-- Total score text-->
+    <string name="scoreTotal">0</string>
+
+</resources>
+
+
